@@ -11,7 +11,7 @@ const App: React.FunctionComponent = () => {
   return (
     <div style={styles.container}>
       <div style={styles.videoContainer}>
-        <h1 style={styles.heading}>Agora React Web UI Kit</h1>
+        <h1 style={styles.heading}>Video streaming app</h1>
         {videocall ? (
           <>
             <div style={styles.nav}>
@@ -27,7 +27,7 @@ const App: React.FunctionComponent = () => {
             </div>
             <AgoraUIKit
               rtcProps={{
-                appId: '<Your Agora App ID>',
+                appId: '8be4f6ea7aba4c1d80c6b1b879212150',
                 channel: 'test',
                 token: null, // add your token if using app in secured mode
                 role: isHost ? 'host' : 'audience',
